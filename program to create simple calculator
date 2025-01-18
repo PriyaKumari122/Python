@@ -1,0 +1,37 @@
+def add(x,y):
+sum=x+y
+return sum
+def sub(x-y)
+sub=x-y
+return sub
+def multy(x*y):
+multy=x*y
+return multy
+def div(x,y)
+div=x/y
+decimal=x//y
+return div,decimal
+def mod(x,y)
+mod=x%y
+return mod
+x=int(input("enter first number:"))
+y=int(input("enter second number:"))
+print('''Select the appropritate numbers for calculation
+1. ADD
+2. SUBSTRACT
+3. MULTIPLY
+4. DIVIDE
+5. MODULAR''')
+ask = int (input("Enter a number: "))
+if ask==1:
+print(add(x,y))
+elif ask==2
+print(sub(x,y))
+elif ask==3
+print(multy(x,y))
+elif ask==4
+print(div(x,y))
+elif ask==5
+print(mod(x,y))
+else:
+print("Please select from above options")
