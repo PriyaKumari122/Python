@@ -1,0 +1,10 @@
+str_input=input("Enter a string: ")
+  vowels='aeiouAEIOU'
+    count=0
+    for char in str_input:
+  if char in vowels:
+  count += 1
+    if count > 0:
+print (f"Yes, the string contains vowels. Number of vowels present: {count}")
+else:
+print("No vowels found in the string.")
